@@ -27,7 +27,8 @@ async function openCage(e) {
     try {
       const response = await axios.get(`https://api.opencagedata.com/geosearch?q=${encodeURIComponent(search)}&language=en`, {
         headers: {
-          "opencage-geosearch-key": "oc_gs_codependemo74gzf48ew7fdvs91nba"
+          "opencage-geosearch-key": "oc_gs_codependemo74gzf48ew7fdvs91nba",
+          "origin": "http://127.0.0.1:5500"
         }
       });
 
