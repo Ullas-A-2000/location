@@ -9,13 +9,7 @@
 <body onclick="document.querySelectorAll('.list-group-item-load').forEach(item => item.remove());
         document.querySelectorAll('.list-group-item').forEach(item => item.remove());">
 <div style="display: flex;width: 100%; flex-direction: column; gap: 100px; align-items: center;margin-top: 10%; position :relative" >
-   
-    <div style="flex: 1; width: 90%;" class="ipCont">
-        <p>Open Cage pricing (35$ / month fixed) <a href="https://opencagedata.com/pricing#geosearch">https://opencagedata.com/pricing#geosearch</a></p>
-        <input class="input" oninput="openCage(event)"  type="text" id="openCage" onclick="document.querySelectorAll('.list-group-item-load').forEach(item => item.remove());
-        document.querySelectorAll('.list-group-item').forEach(item => item.remove());" placeholder="openCage search">
-        <div id="openCageDropdown"></div>
-    </div>
+
     <div style="flex: 1; width: 90%" class="ipCont">
         <p>This api is availabe in free trial need to know it its available along with the other plans if we are purchasing <a href="https://astrologyapi.com">https://astrologyapi.com</a></p>
         <input class="input" oninput="astroApi(event)" type="text" id="tomtom" placeholder="Tom Tom search" onclick="document.querySelectorAll('.list-group-item-load').forEach(item => item.remove());
